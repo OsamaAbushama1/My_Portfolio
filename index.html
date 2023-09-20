@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Render All Element Normally -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <!-- Bootstrap File -->
+    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
+    
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- ! Start Nav -->
+    <div class="navigation">
+        <div class="container">
+            <a href="index.html"><img src="imgs/logo.jpg" alt=""> </a>
+            <div class="menubar">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li data-text="Home"><a href="index.html">Home</a></li>
+                    <li data-text="About"><a href="about.html">About</a></li>
+                    <!-- <li data-text="Blog"><a href="blog.html">Blog</a></li> -->
+                    <li data-text="Portfolio"><a href="portfolio.html" >Portfolio</a></li>
+                    <li data-text="Contact"><a href="contact.html" >Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- ! End Nav -->
+    <!-- ! Start Header-->
+    <div class="header">
+        <div class="container">
+            <div class="part">
+                <div class="social-media-links">
+                    <ul>
+                        <li><a href="https://www.facebook.com/osama.abushama.921?mibextid=2JQ9oc" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fosamaabushama_%2F%3Ffbclid%3DIwAR1LkZUM13iBwUnYnZKTtT11Fl_du9V7LAFZXPHowgcOwIaODnpMtupTBEE&h=AT2F2qUish1MggFFI20SKW77XphqzUioVjOiAwNrGYeKnk3-368ii7LJ47zCjAkzXyfxN9VSKDRcbNjHiaIJdVtr8AT2XE0OaGlFW5sgPkkoyLkgPdebLOUprNLXpEwS2wwhMA" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/osama-abushama-59021921a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://twitter.com/OsamaAbushama" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+                <div class="header-content">
+                    <div class="details">
+                        <h2>Osama <span class="one">Abushama</span></h2>
+                        <p>I'm a <span class="typing"></span></p>
+                    </div>
+                </div>
+                <div class="contact">
+                        <a href="mailto:osamaabushama1@gmail.com"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="tel:01021730424"><i class="fa-solid fa-phone"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ! End Header-->
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('.typing', {
+            strings: ["Designer", 'Developer'], 
+            timeSpeed:200,
+            backSpeed:200,
+            loop:true
+        })
+    </script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
